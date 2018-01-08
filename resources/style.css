@@ -133,10 +133,13 @@ nav a:hover {
 }
 .tea-images img{
   display: flex;
-  flex-direction: column;
   height: 200px;
   width: 300px;
-
   border: 1px solid purple;
+  margin: 10px;
+
+}
+
+.tea-images {
 
 }
