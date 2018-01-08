@@ -31,6 +31,8 @@ header {
   background-color: black;
 }
 
+
+/* Navigatio Section */
 nav {
   display: flex;
   height: 22px;
@@ -66,6 +68,8 @@ nav a:hover {
 /* Main Content */
 .main-content {
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
   width: 1232px;
   margin: 0 auto 78px auto;
@@ -80,7 +84,6 @@ nav a:hover {
   height: 700px;
   width: 1200px;
   margin-top: 0 auto;
-  border: 1px solid red;
 }
 
 .mission-image {
@@ -95,7 +98,7 @@ nav a:hover {
 .mission-text {
   display: flex;
   height: 100px;
-  width: 1200px;
+  width: 100%;
   flex-direction: column;
   justify-content: center;
   background-color: black;
@@ -110,4 +113,30 @@ nav a:hover {
 .mission-text h4 {
   display: flex;
   justify-content: center;
+}
+
+/* Tea of the Month Section */
+.tea-container {
+  display: flex;
+  justify-content: center;
+  width: 1000px;
+  flex-wrap: wrap;
+  border: 1px solid red;
+}
+
+.tea-text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 1000px;
+  border: 1px solid yellow;
+}
+.tea-images img{
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  width: 300px;
+
+  border: 1px solid purple;
+
 }
