@@ -103,7 +103,7 @@ nav a:hover {
 }
 
 .mission-image {
-  background-image: url("images/img-mission-background.jpg");
+  background-image: url("./images/img-mission-background.jpg");
   background-position: center center;
   display: flex;
   height: 100%;
@@ -177,13 +177,65 @@ nav a:hover {
 
 /* Location Section */
 .location-container {
-  background-image: url("images/img-locations-background.jpg");
+  background-image: url("./images/img-locations-background.jpg");
   background-position: 50% 25%;
   display: flex;
   flex-direction: column;
   height: 500px;
   width: 1200px;
+  justify-content: center;
   margin-top: 100px;
-  border: 1px solid blue;
   opacity: 0.9;
+  border: 1px solid blue;
+}
+
+.location-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25px;
+  border: 1px solid red;
+}
+
+.box-container {
+  width: 1200px;
+  height: 250px;
+  display: inline-flex;
+  justify-content: center;
+  border: 1px solid green;
+  margin-top: 15px;
+  margin-bottom: 80px;
+}
+
+.location-box {
+  height:250px;
+  width: 300px;
+  background-color: black;
+  opacity: 1;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 0px;
+  border: 1px solid orange;
+}
+
+/*  Footer Section  */
+.footer-text {
+  height: 200px;
+  border: 1px solid purple;
+  margin-top: 0px;
+}
+
+.footer-text h2 {
+  margin: 10px;
+  margin-bottom: 40px;
+}
+
+/* Copyright Section */
+.copyright-container {
+  display: flex;
+  justify-content: flex-start;
+  width: 1278px;
+  padding-left: 20px;
+  font-size: 15px;
+  border: 1px solid purple;
 }
