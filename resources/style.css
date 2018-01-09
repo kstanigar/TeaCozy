@@ -14,6 +14,7 @@ body {
   background-color: black;
   opacity: 0.9;
   text-align: center;
+  margin: 0px;
 }
 
 h2, h4, h5, .tea-images {
@@ -160,7 +161,7 @@ nav a:hover {
 .tea-text h4 {
   margin-top: 5px;
   margin-bottom: 5px;
-  border: 1px solid green;
+  /*border: 1px solid green;*/
 }
 
 .tea-images img{
@@ -186,7 +187,7 @@ nav a:hover {
   justify-content: center;
   margin-top: 100px;
   opacity: 0.9;
-  border: 1px solid blue;
+  /*border: 1px solid blue;*/
 }
 
 .location-text {
@@ -194,7 +195,7 @@ nav a:hover {
   justify-content: center;
   align-items: center;
   height: 25px;
-  border: 1px solid red;
+  /*border: 1px solid red;*/
 }
 
 .box-container {
@@ -215,14 +216,15 @@ nav a:hover {
   margin-right: 20px;
   margin-left: 20px;
   margin-top: 0px;
-  border: 1px solid orange;
+  /*border: 1px solid orange;*/
 }
 
 /*  Footer Section  */
 .footer-text {
   height: 200px;
-  border: 1px solid purple;
   margin-top: 0px;
+  /*border: 1px solid purple;*/
+
 }
 
 .footer-text h2 {
@@ -237,5 +239,5 @@ nav a:hover {
   width: 1278px;
   padding-left: 20px;
   font-size: 15px;
-  border: 1px solid purple;
+  /*border: 1px solid purple;*/
 }
