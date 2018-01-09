@@ -20,6 +20,7 @@ h2, h4, h5, .tea-images {
   font-family: Helvetica, sans-serif;
   color: seashell;
   text-align: center;
+  opacity: 0.9;
 }
 
 /*  header  */
@@ -35,6 +36,7 @@ header {
   font-size: 22px;
   border-bottom: 1px solid seashell;
   background-color: black;
+  opacity: 0.9;
 }
 
 /* Navigation Section */
@@ -50,6 +52,7 @@ nav {
 
 nav a {
   color: seashell;
+  opacity: 0.9;
 }
 
 nav a:hover {
@@ -67,6 +70,7 @@ nav a:hover {
 .logo img {
   height: 50px;
   width: 170px;
+  opacity: 0.9;
 }
 
 .nav {
@@ -84,6 +88,7 @@ nav a:hover {
   width: 1232px;
   margin: 0 auto 78px auto;
   padding-top: 70px;
+  opacity: 0.9;
 }
 
 /* Mission Section */
@@ -94,6 +99,7 @@ nav a:hover {
   height: 700px;
   width: 1200px;
   margin-top: 0 auto;
+  opacity: 0.9;
 }
 
 .mission-image {
@@ -104,6 +110,7 @@ nav a:hover {
   width: 100%;
   justify-content: center;
   align-items: center;
+  opacity: 0.9;
 }
 
 .mission-text {
@@ -113,6 +120,7 @@ nav a:hover {
   flex-direction: column;
   justify-content: center;
   background-color: black;
+  opacity: 0.9;
 }
 
 .mission-text h2 {
@@ -133,7 +141,8 @@ nav a:hover {
   align-content: space-between;
   width: 1200px;
   flex-wrap: wrap;
-  border: 1px solid red;
+  opacity: 0.9;
+  /*  border: 1px solid red;  */
 }
 
 .tea-text {
@@ -141,8 +150,19 @@ nav a:hover {
   flex-direction: column;
   text-align: center;
   width: 1000px;
-
+  opacity: 0.9;
 }
+
+.tea-text h2 {
+  margin-top: 100px;
+  border: 1px solid gold;
+}
+.tea-text h4 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: 1px solid green;
+}
+
 .tea-images img{
   display: flex;
   height: 200px;
@@ -150,8 +170,9 @@ nav a:hover {
   margin-bottom: 5px;
   margin-left: 23px;
   margin-right: 23px;
-  margin-top: 10px;
-  border: 1px solid purple;
+  margin-top: 15px;
+  opacity: 0.9;
+  /*  border: 1px solid purple;  */
 }
 
 /* Location Section */
@@ -164,4 +185,5 @@ nav a:hover {
   width: 1200px;
   margin-top: 100px;
   border: 1px solid blue;
+  opacity: 0.9;
 }
