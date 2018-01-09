@@ -19,7 +19,6 @@ body {
 h2, h4, h5, .tea-images {
   font-family: Helvetica, sans-serif;
   color: seashell;
-  opacity: 0.9;
   text-align: center;
 }
 
@@ -42,7 +41,7 @@ header {
 nav {
   display: flex;
   height: 22px;
-  width: 990px;
+  width: 1090px;
   justify-content: flex-end;
   text-decoration: none;
   color: seashell;
@@ -65,10 +64,15 @@ nav a:hover {
   /*border: 1px solid orange;*/
 }
 
+.logo img {
+  height: 50px;
+  width: 170px;
+}
+
 .nav {
   display: flex;
   margin-left: 25px;
-  /*border: 1px solid red;*/
+  /* border: 1px solid red; */
 }
 
 /* Main Content */
@@ -126,7 +130,8 @@ nav a:hover {
 .tea-container {
   display: flex;
   justify-content: center;
-  width: 1000px;
+  align-content: space-between;
+  width: 1200px;
   flex-wrap: wrap;
   border: 1px solid red;
 }
@@ -142,7 +147,10 @@ nav a:hover {
   display: flex;
   height: 200px;
   width: 300px;
-  margin: 10px;
+  margin-bottom: 10px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 10px;
   border: 1px solid purple;
 }
 
