@@ -44,8 +44,9 @@ header {
 nav {
   display: flex;
   height: 22px;
-  width: 1090px;
+  width: 100%;
   justify-content: flex-end;
+  margin-right: 10px;
   text-decoration: none;
   color: seashell;
   /*border: 1px solid white;*/
@@ -87,7 +88,7 @@ nav a:hover {
   align-items: center;
   justify-content: center;
   width: 1232px;
-  margin: 0 auto 78px auto;
+  margin: 0 auto;
   padding-top: 70px;
   opacity: 0.9;
 }
@@ -140,10 +141,9 @@ nav a:hover {
   display: flex;
   justify-content: center;
   align-content: space-between;
-  width: 1200px;
+  width: 1000px;
   flex-wrap: wrap;
   opacity: 0.9;
-  /*  border: 1px solid red;  */
 }
 
 .tea-text {
@@ -156,24 +156,19 @@ nav a:hover {
 
 .tea-text h2 {
   margin-top: 100px;
-  border: 1px solid gold;
 }
+
 .tea-text h4 {
   margin-top: 5px;
   margin-bottom: 5px;
-  /*border: 1px solid green;*/
 }
 
 .tea-images img{
   display: flex;
+  margin: 15px 15px 5px 15px;
   height: 200px;
   width: 300px;
-  margin-bottom: 5px;
-  margin-left: 23px;
-  margin-right: 23px;
-  margin-top: 15px;
   opacity: 0.9;
-  /*  border: 1px solid purple;  */
 }
 
 /* Location Section */
@@ -187,7 +182,6 @@ nav a:hover {
   justify-content: center;
   margin-top: 100px;
   opacity: 0.9;
-  /*border: 1px solid blue;*/
 }
 
 .location-text {
@@ -195,7 +189,6 @@ nav a:hover {
   justify-content: center;
   align-items: center;
   height: 25px;
-  /*border: 1px solid red;*/
 }
 
 .box-container {
@@ -203,7 +196,6 @@ nav a:hover {
   height: 250px;
   display: inline-flex;
   justify-content: center;
-  border: 1px solid green;
   margin-top: 15px;
   margin-bottom: 80px;
 }
@@ -233,11 +225,18 @@ nav a:hover {
 }
 
 /* Copyright Section */
-.copyright-container {
+.copyright {
   display: flex;
   justify-content: flex-start;
-  width: 1278px;
+  width: 100%;
   padding-left: 20px;
+  color: seashell;
+  opacity: 0.9;
+  margin-bottom: 40px;
+}
+
+.copyright p {
   font-size: 15px;
-  /*border: 1px solid purple;*/
+  font-family: Helvetica, sans-serif;
+  opacity: 0.9;
 }
