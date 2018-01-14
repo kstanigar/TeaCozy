@@ -47,7 +47,7 @@ nav {
   width: 100%;
   justify-content: flex-end;
   margin-right: 10px;
-  text-decoration: none;
+  text-decoration: underline;
   color: seashell;
   /*border: 1px solid white;*/
 }
@@ -91,6 +91,7 @@ nav a:hover {
   margin: 0 auto;
   padding-top: 70px;
   opacity: 0.9;
+  border: 1px solid purple;
 }
 
 /* Mission Section */
@@ -171,6 +172,12 @@ nav a:hover {
   opacity: 0.9;
 }
 
+.tea-images:hover{
+  color: DimGray;
+  /*border: 1px solid seashell;*/
+  opacity: 0.5;
+}
+
 /* Location Section */
 .location-container {
   background-image: url("./images/img-locations-background.jpg");
@@ -215,7 +222,7 @@ nav a:hover {
 .footer-text {
   height: 200px;
   margin-top: 0px;
-  /*border: 1px solid purple;*/
+  border: 1px solid blue;
 
 }
 
@@ -233,10 +240,13 @@ nav a:hover {
   color: seashell;
   opacity: 0.9;
   margin-bottom: 40px;
+  border: 1px solid yellow;
 }
 
 .copyright p {
-  font-size: 15px;
+  font-size: 18px;
   font-family: Helvetica, sans-serif;
   opacity: 0.9;
+  border: 1px solid green;
+  margin-top: 0;
 }
