@@ -1,6 +1,7 @@
 /* Universal Styles  */
 body {
   margin: 0;
+  padding: 0;
   font-family: Helvetica, sans-serif;
   font-size: 22px;
   color: seashell;
@@ -81,32 +82,25 @@ nav a:hover {
   align-items: center;
   justify-content: center;
   width: 100%;
-  margin: 0 auto;
   padding-top: 70px;
   opacity: 0.9;
-  /*border: 1px solid purple;*/
 }
 
 /* Mission Section */
 .mission {
+  background: url("./images/img-mission-background.jpg") no-repeat center center / cover;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 700px;
-  width: 1200px;
+  width: 94%;
   margin-top: 0 auto;
   opacity: 0.9;
+  margin-bottom: 10px;
 }
 
 .mission-image {
-  background-image: url("./images/img-mission-background.jpg");
-  background-position: center center;
-  display: flex;
-  height: 100%;
   width: 100%;
-  justify-content: center;
-  align-items: center;
-  opacity: 0.9;
 }
 
 .mission-text {
@@ -115,19 +109,19 @@ nav a:hover {
   width: 100%;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   background-color: black;
   opacity: 0.9;
 }
 
 .mission-text h2 {
-  display: flex;
-  margin-top: 5px;
   justify-content: center;
+  margin-bottom: 10px;
 }
 
 .mission-text h4 {
-  display: flex;
   justify-content: center;
+  margin-top: 0px;
 }
 
 /* Tea of the Month Section */
@@ -138,6 +132,7 @@ nav a:hover {
   width: 1000px;
   flex-wrap: wrap;
   opacity: 0.9;
+  margin-top: 0px;
 }
 
 .tea-text {
@@ -149,7 +144,7 @@ nav a:hover {
 }
 
 .tea-text h2 {
-  margin-top: 100px;
+  margin-bottom: 5px;
 }
 
 .tea-text h4 {
@@ -196,7 +191,6 @@ nav a:hover {
   display: inline-flex;
   justify-content: center;
   margin-top: 15px;
-  margin-bottom: 80px;
 }
 
 .location-box {
@@ -218,7 +212,6 @@ nav a:hover {
 
 .footer-text h2 {
   margin: 10px;
-  margin-bottom: 40px;
 }
 
 /* Copyright Section */
@@ -229,7 +222,7 @@ nav a:hover {
   padding-left: 20px;
   color: seashell;
   opacity: 0.9;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
 }
 
 .copyright p {
@@ -237,4 +230,5 @@ nav a:hover {
   font-family: Helvetica, sans-serif;
   opacity: 0.9;
   margin-top: 0;
+  
 }
