@@ -2,13 +2,12 @@
 body {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
   font-family: Helvetica, sans-serif;
   font-size: 22px;
   color: seashell;
   background-color: black;
-  opacity: 0.9;
   text-align: center;
-  margin: 0px;
 }
 
 h2, h4, h5, .tea-images {
@@ -25,7 +24,7 @@ header {
   z-index: 1;
   margin: 0 auto;
   height: 69px;
-  width: 100%;
+  min-width: 100%;
   align-items: center;
   font-family: Helvetica, sans-serif;
   font-size: 22px;
@@ -57,20 +56,19 @@ nav a:hover {
 
 /*  Logo  */
 .logo {
-  display: flex;
-  height: 50px;
+  max-height: 50px;
+  max-width: 170px;
   margin-left: 10px;
 }
 
 .logo img {
-  width: 170px;
+  width: 100%;
   opacity: 0.9;
 }
 
 .nav {
   display: flex;
   margin-left: 25px;
-  /* border: 1px solid red; */
 }
 
 /* Main Content */
@@ -79,7 +77,7 @@ nav a:hover {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-width: 100%;
+  width: 100%;
   padding-top: 70px;
   opacity: 0.9;
 }
@@ -92,9 +90,9 @@ nav a:hover {
   align-items: center;
   height: 700px;
   width: 94%;
-  margin-top: 0 auto;
+  margin: 0 auto 10px auto;
   opacity: 0.9;
-  margin-bottom: 10px;
+  background-color: sandybrown;
 }
 
 .mission-image {
@@ -130,6 +128,8 @@ nav a:hover {
   align-items: center;
   opacity: 0.9;
   margin-top: 0px;
+  width: 100%;
+  padding: 30px 0px 50px;
 }
 .tea-images-container {
   display: flex;
@@ -137,24 +137,31 @@ nav a:hover {
   align-items: center;
   justify-content: center;
 }
-.tea-images {
-  display: flex;
-}
-
 .tea-text {
   display: flex;
   flex-direction: column;
   text-align: center;
-  width: 1000px;
+  width: 100%;
   opacity: 0.9;
+  margin: 0 auto;
+  padding: 0px 0px 5px;
 }
 .tea-text h2 {
   margin-bottom: 5px;
+  margin: 0 auto;
 }
 
 .tea-text h4 {
   margin-top: 5px;
   margin-bottom: 5px;
+}
+.tea-images {
+  display: flex;
+  flex: 0 0 300px;
+  max-height: 300px;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
 }
 .tea-images a{
   color: seashell;
@@ -164,7 +171,7 @@ nav a:hover {
 .tea-images img{
   display: flex;
   flex-direction: column;
-  margin: 15px 15px 5px 15px;
+  margin: 15px;
   height: 200px;
   width: 300px;
   opacity: 0.9;
@@ -183,9 +190,8 @@ nav a:hover {
   display: flex;
   flex-direction: column;
   min-height: 500px;
-  min-width: 1200px;
+  width: 100%;
   justify-content: center;
-  margin-top: 100px;
   opacity: 0.9;
   padding: 20px;
 }
@@ -198,22 +204,21 @@ nav a:hover {
 }
 
 .box-container {
-  min-width: 1200px;
+  width: 100%;
   min-height: 250px;
   display: flex;
   justify-content: center;
   margin-top: 15px;
+  flex-wrap: wrap;
 }
 
 .location-box {
-  min-height:250px;
+  max-height:250px;
   min-width: 300px;
   background-color: black;
   opacity: 1;
-  margin-right: 20px;
-  margin-left: 20px;
-  margin-top: 0px;
-  /*border: 1px solid orange;*/
+  margin: 20px;
+  flex: 0 0 300px;
 }
 
 /*  Footer Section  */
@@ -244,7 +249,7 @@ nav a:hover {
   margin-top: 0;
 }
 /* Media Queries */
-@media (max-width: 576px) {
+@media (max-width: 584px) {
   .logo img{
     align-items: center;
   }
@@ -263,7 +268,5 @@ nav a:hover {
   .location-box {
     margin-bottom: 10px;
   }
-    
-  
 }
 
