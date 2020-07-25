@@ -251,8 +251,22 @@ nav a:hover {
 }
 /* Media Queries */
 @media (max-width: 584px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.2rem 0;
+    opacity: 1;
+  }
+  .logo {
+    margin-bottom: 1rem;
+  }
   .logo img{
     align-items: center;
+  }
+  .nav-header {
+    margin: 0 auto;
+    justify-content: center;
   }
   .nav a {
     font-size: 1rem;
@@ -267,7 +281,15 @@ nav a:hover {
     align-items: center;
   }
   .location-box {
-    margin-bottom: 10px;
+    margin: 10px;
+  }
+  .copyright {
+    margin: 0 auto;
+    padding: 0;
+  }
+  .copyright-container {
+    width: 100%;
   }
 }
+
 
