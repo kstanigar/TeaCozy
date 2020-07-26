@@ -43,12 +43,12 @@ nav {
   margin-right: 10px;
   text-decoration: underline;
   color: seashell;
-  /*border: 1px solid white;*/
 }
 
 nav a {
   color: seashell;
   opacity: 0.9;
+  transition: color 0.4s ease;
 }
 
 nav a:hover {
